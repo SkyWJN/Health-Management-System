@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+	<van-tabs active="{{ active }}" bind:change="onChange" color="#07C160">
+		<van-tab title="运动资讯">
+			<van-card thumb="https://img0.baidu.com/it/u=3654308702,1987963924&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=707" thumb-mode="aspectFill" class="card" title-class="card-title" custom-class='card-cum' wx:if="{{ tableList.length > 0 }}" wx:for="{{ tableList }}" wx:key="index" desc="发表时间：{{ item.createTime }}" title="标题：{{ item.title }}">
+				<view slot="footer" class="view_tab">
+					<van-button round="true" type="primary" size="small" data-id="{{ item.id }}" bindtap="toDetails">查看详情</van-button>
+				</view>
+			</van-card>
+			<van-empty wx:if="{{ tableList.length < 1 }}" description="暂无数据" />
+		</van-tab>
+		<!-- <van-tab title="运动商品">
+			<van-card 
+			wx:if="{{ tableList.length > 0 }}" 
+			wx:for="{{ tableList }}" 
+			wx:key="index" 
+			desc="特色功能：{{ item.characteristic }}" 
+			num="{{ item.number }}"
+			thumb="{{ image2.formatImage(item.imageUrl) }}"
+			data-image2="{{ item.imageUrl }}"
+			price="{{ item.price }}"
+			title="{{ item.name }}"/>
+			<van-empty wx:if="{{ tableList.length < 1 }}" description="暂无数据" />
+		</van-tab>
+		<van-tab title="运动项目">
+			<van-card wx:if="{{ tableList.length > 0 }}" wx:for="{{ tableList }}" wx:key="index" desc="适于年龄：{{ item.applicableAge }}" title="运动名称：{{ item.name }}">
+				<view slot="footer">
+					<van-button type="warning" size="mini" data-id="{{ item.id }}" bindtap="toDetails2">查看详情</van-button>
+				</view>
+			</van-card>
+			<van-empty wx:if="{{ tableList.length < 1 }}" description="暂无数据" />
+		</van-tab> -->
+	</van-tabs>
+
+</view>
+
+<view style="height: 50px;">
+</view>
+
+<!-- wxml页面内置js -->
+<wxs module="image2">
+	// 暴露使用的方法
+	module.exports = {
+		formatImage: function (str) {
+			if (str) {
+				if (str.indexOf('http') != -1) {
+					return str;
+				} else {
+					return 'http://rtrm4nlop.hn-bkt.clouddn.com/' + str;
+				}
+			} else {
+				return 'https://img.yzcdn.cn/vant/cat.jpeg';
+			}
+		}
+	}
+</wxs>

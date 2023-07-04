@@ -1,0 +1,39 @@
+# 开发环境配置
+spring:
+  mvc:
+    # 解决Swagger2和springboot版本不同产生的问题
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  servlet:
+    multipart:
+      max-file-size: 10MB #上传单个文件最大限制
+      max-request-size: 10MB #上传多个文件最大限制
+  # 配置Mysql数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sport_test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  #redis 配置
+  redis:
+    # 配置主机
+    host: 127.0.1
+    # 配置使用的数据库
+    database: 0
+    # 指定端口
+    port: 6379
+  # 邮件配置
+  mail:
+    # smtp服务主机 QQ:smtp.qq.com
+    host: smtp.qq.com
+    # 服务协议
+    protocol: smtp
+    # 设置编码集
+    default-encoding: UTF-8
+    # 允许测试连接
+    test-connection: true
+    # 设置发件人
+    username: 1744881633@qq.com
+    # 设置授权码
+    password: yjrjoxskxddhcdee

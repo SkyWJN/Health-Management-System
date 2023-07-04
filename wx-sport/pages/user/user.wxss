@@ -1,0 +1,120 @@
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(240, 240, 240);
+  /* z-index: -2; */
+}
+.nickName{
+  /* border: solid red; */
+  position: relative;
+  margin: 150px 160px 10px 160px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 方正准圆_GBK;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 4px #000;
+}
+
+/* 第1部分 */
+.top-container {
+  height: 440rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #a0deee;
+  background-image: url(http://rtrm4nlop.hn-bkt.clouddn.com/2023050816025188618965_p0_master1200.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: solid red; */
+}
+
+.bg-img .van-image {  
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  /* z-index: -1; */
+  /* border: solid red; */
+  margin: 50px 10px 10px 135px;
+}
+
+
+.image-jiantou {
+  width: 32rpx;
+  height: 32rpx;
+  position: absolute;
+  /* 要约束所在位置的子元素的位置要设置成绝对 */
+  right: 30rpx;
+  /* 靠右调节 */
+  margin-right: 35rpx;
+  
+}
+
+.middle-item {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: solid red; */
+}
+
+.text_2 {
+  /* margin: 0rxp 200rpx 0rpx 200rpx; */
+  font-size: 33rpx;
+  color: #505050;
+  line-height: 28rpx;
+  font-weight: bold;
+  padding-left: 20rpx;
+  /* border: solid red; */
+  
+}
+
+/* 第4部分--消费记录，我的积分，我的欢乐豆  begin*/
+.container_4 {
+  /* width: 100%; */
+  height: 320rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15rpx;
+  background-color: #FFFFFF;
+  margin: 0rpx 30rpx 380rpx 30rpx;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  /* box-shadow: 0 15rpx 10rpx -15rpx #efefef; */
+  /* border: solid red; */
+}
+
+.middle-tag {
+  margin: 0rxp 200rpx 0rpx 200rpx;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 28rpx;
+  font-weight: bold;
+  padding-left: 22rpx;
+  
+}
+
+.image_tupian_1 {
+  display: flex;
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 40rpx;
+  
+}
+
+/* 线 */
+.view_line {
+  width: 90%;
+  height: 5rpx;
+  background: #f3f3f3;
+  /* margin: 0rxp 5% 0rxp 5%; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 第4部分--消费记录，我的积分，，我的欢乐豆  end*/

@@ -1,0 +1,28 @@
+/**index.wxss**/
+.card-title {
+  font-size: 17px;
+  /* border:solid red; */
+  font-family: 方正准圆_GBK;
+}
+
+
+.card .van-card {
+  margin-bottom: 10px;
+  width: 90%;
+  margin-left: 5%;
+  /* height: 100px; */
+  background: rgb(226, 208, 208);
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  /* border:solid red; */
+}
+
+.view_tab {
+  margin-top: -40px;
+}
+
+.van-tab {
+  /* background-color: rgb(243, 180, 43); */
+  border-radius: 20px;
+  width: 90%;
+}

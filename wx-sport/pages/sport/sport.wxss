@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+  color: chocolate;
+  margin-bottom: 15px;
+}
+
+.step {
+  font-family: 方正准圆_GBK;
+  font-size: 18px;
+  /* font-size: 22px; */
+  /* color: chartreuse; */
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(236, 235, 235);
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  /* border: solid red; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  width: 95%;
+  margin-left: 2%;
+  /* text-align: left; */
+  padding-top: 25px;
+}
+
+.calolis{
+  color: red;
+}

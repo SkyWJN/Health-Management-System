@@ -1,0 +1,13 @@
+/* pages/food/foods/foods.wxss */
+.card .van-card{
+  margin-top: 5px;
+  width: 95%;
+  margin-left: 2%;
+  /* height: 100px; */
+  background: rgb(108, 230, 235);
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  /* border:solid red; */
+  font-size: 14px;
+  font-family: 微软雅黑;
+}

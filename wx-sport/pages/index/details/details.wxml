@@ -1,0 +1,15 @@
+<!--pages/index/details/details.wxml-->
+<view>
+  <van-row>
+    <van-col>
+      <p class="vanp">创建人：</p>
+      <van-tag type="warning">{{ baseData.createName }}</van-tag>
+    </van-col>
+    <van-col>
+      <p class="vanp">创建时间：</p>
+      <van-tag type="primary">{{ baseData.createTime }}</van-tag>
+    </van-col>
+  </van-row>
+  <towxml nodes="{{dataInfo}}" wx:if="{{ flag }}"/>
+  <van-empty wx:if="{{!flag}}" description="暂无数据"></van-empty>
+</view>

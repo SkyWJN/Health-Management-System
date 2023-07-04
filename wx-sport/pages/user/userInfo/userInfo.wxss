@@ -1,0 +1,9 @@
+/* pages/user/userInfo/userInfo.wxss */
+
+.view-button{
+  /* border: solid red; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+

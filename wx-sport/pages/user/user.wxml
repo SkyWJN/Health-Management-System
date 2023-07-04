@@ -1,0 +1,34 @@
+<!--pages/jiaocheng/jiaocheng.wxml-->
+<view class='container'>
+	<!-- 第1部分 -->
+	<view class='top-container'>
+    <van-image round class="bg-img" fit="cover" src="{{ userInfo.avatar }}"  bindtap="getInfo" />
+    <text class="nickName">{{userInfo.nickName}}</text>
+	</view>
+	<!-- 第4部分 -->
+	<view class='container_4' >
+		<view class='middle-item' hover-stay-time="150"  bindtap="setting">
+			<van-icon class="image_tupian_1" name="setting-o"></van-icon>
+			<text class='text_2' bindtap="setting">设置</text>
+      <!-- <image class="image-jiantou" src="../images/jiantou.png"></image> -->
+      <van-icon class="image-jiantou" name="arrow" ></van-icon>
+		</view>
+
+		<view class="view_line"></view>
+
+		<view class='middle-item' hover-class="opcity" hover-stay-time="150" bindtap="userInfo">
+			<van-icon class="image_tupian_1" name="user-o"></van-icon>
+			<text class='text_2'>个人信息</text>
+			<van-icon class="image-jiantou" name="arrow"></van-icon>
+		</view>
+    <view class="view_line"></view>
+
+    <view class='middle-item' hover-class="opcity" hover-stay-time="150" bindtap="logout">
+			<van-icon class="image_tupian_1" name="replay"></van-icon>
+			<text class='text_2'>退出登陆</text>
+			<van-icon class="image-jiantou" name="arrow"></van-icon>
+		</view>
+    <view class="view_line"></view>
+  </view>
+</view>
+
