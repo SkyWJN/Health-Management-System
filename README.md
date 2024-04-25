@@ -1,4 +1,4 @@
-# Health-Management-System
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/50d296ce-1e91-4249-98a7-67b6d3526605)# Health-Management-System
 ## SpringBoot+SpringSecurity+微信小程序+vue2.0 ##
 ***
 ### 关键技术
@@ -12,33 +12,37 @@
 &emsp;本系统使用的是目前市面上主流的B/S体系开发结构，以及通过接口实现微信小程序。在B/S体系结构个中，浏览器是客户端中唯一需要使用的软件，使用浏览器向后端，也就是服务端发送数据，后端响应后，浏览器就会接受到来自后端的数据，这时，浏览器只需要展示对应的数据即可。这样的开发结构有利于统开发和维护，同时提高了系统的可拓展性。
 本系统的总体设计的基础框架使用的是MVC模式，MVC是目前常见的一种架构模式，这种架构模式可以降低视图与业务逻辑的双向耦合，系统的逻辑架构图如下图所示。 
 
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/534b78aa-61b0-4fd2-bea2-4879d396afbc)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/bca11b5b-2f01-446f-b5a3-e98ae824c41a)
 
 ### 模块设计
 
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/8756eacd-cdca-4bbb-9201-f41dbc5fe092)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/6f97c94e-1977-43c5-8dd9-d3e826c0f94f)
 
 ### 数据库逻辑设计
 
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/b19cf218-737a-41eb-9a3c-96d8102ad878)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/c8f55d4c-b51f-467d-99bc-9d0f29bbba84)
 
 
 ***
 *微信小程序端页面展示。*
 
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/664653fe-7233-46ca-9b5b-427247827a93)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/c8cb4cd1-65dc-42b9-a7a4-e49845ece320)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/385cfb36-36fa-42ed-86fb-65a4aa43e2bc)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/9833088f-17d4-481c-9965-8e99a7e448fe)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/715dc5c3-095c-435e-ad00-261f442d431c)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/6754a7b0-649d-47b0-9b23-e35a119c66e6)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/105cece1-62e0-4f26-ae25-b068dedf7852)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/f961af2c-1b3d-4399-a9da-04e0257b47b2)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/58556bac-c6d9-45cc-9971-e1313aa13bdb)
+
 
 *后台管理页面展示。*
 
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/e72a0fd2-7fc2-48bc-9c75-04704c9a3cf7)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/d8aa6887-525e-4222-99fc-53e0919a2711)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/a160a73f-1a1c-4c4b-b286-2fb021409df9)
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/e21cd58c-b499-4422-81a4-97b8b6af21bf)
-
-
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/81ff3de2-3774-4b9a-89e0-44b991d01f26)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/ad04c18d-a08e-4fba-ac0a-54a6e5d41fad)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/e6ee1d08-50cf-4287-8752-be76d6975010)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/22d687bf-d2aa-4521-8dae-fab148965377)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/8b946d78-c610-4836-9f37-41e57578a1a9)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/0efbd25b-d9fe-40ff-959c-8845746d427b)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/d660c450-cc86-4f7b-92c9-38fb3963ff33)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/0d408e1c-4f37-4882-8049-22b2f410061d)
 
 
 
