@@ -1,2 +1,44 @@
 # Health-Management-System
-SpringBoot+SpringSecurity+微信小程序+vue2.0
+## SpringBoot+SpringSecurity+微信小程序+vue2.0 ##
+***
+### 关键技术
+&emsp;前端使用了vue2.0进行开发，后端使用了mybatis框架，使用了Spring Security和JWT两种技术，将两者结合起来，用于实现用户认证和授权，设计登录验证等功能。
+
+&emsp;本系统使用的是前后端分离开发，前后端服务器使用的端口号不一样，如果不做设置，前端和后端的交互会有错误。所以在后端开发时，使用注解开发的方式来配置WebMvcConfigurer，允许前端资源访问后端端口。
+
+&emsp;因为本系统使用了SpringSecurity和JWT的技术来进行用户的权限验证，每次访问不同的前端页面，向后端发送请求时，都需要对数据库进行查询来验证用户的权限等信息，这样的行为会增加系统与数据库的交互量，结果就是导致了我们的数据库压力不断增加。数据库压力大了会影响小程序的运行效率，从而会影响到用户的体验，为了提升用户的体验，就需要减少数据库的压力，为了减少压力，本系统使用了Redis缓存技术。在第一次查询后，把本次查询到的信息存到Redis，当下一次查询时直接向Redis中取，以此来减少数据库的压力。增加用户浏览时的体验。
+
+### 开发结构
+&emsp;本系统使用的是目前市面上主流的B/S体系开发结构，以及通过接口实现微信小程序。在B/S体系结构个中，浏览器是客户端中唯一需要使用的软件，使用浏览器向后端，也就是服务端发送数据，后端响应后，浏览器就会接受到来自后端的数据，这时，浏览器只需要展示对应的数据即可。这样的开发结构有利于统开发和维护，同时提高了系统的可拓展性。
+本系统的总体设计的基础框架使用的是MVC模式，MVC是目前常见的一种架构模式，这种架构模式可以降低视图与业务逻辑的双向耦合，系统的逻辑架构图如下图所示。 
+
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/534b78aa-61b0-4fd2-bea2-4879d396afbc)
+
+### 模块设计
+
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/8756eacd-cdca-4bbb-9201-f41dbc5fe092)
+
+### 数据库逻辑设计
+
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/b19cf218-737a-41eb-9a3c-96d8102ad878)
+
+
+***
+*微信小程序端页面展示。*
+
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/664653fe-7233-46ca-9b5b-427247827a93)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/c8cb4cd1-65dc-42b9-a7a4-e49845ece320)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/385cfb36-36fa-42ed-86fb-65a4aa43e2bc)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/9833088f-17d4-481c-9965-8e99a7e448fe)
+
+*后台管理页面展示。*
+
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/e72a0fd2-7fc2-48bc-9c75-04704c9a3cf7)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/d8aa6887-525e-4222-99fc-53e0919a2711)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/a160a73f-1a1c-4c4b-b286-2fb021409df9)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/e21cd58c-b499-4422-81a4-97b8b6af21bf)
+
+
+
+
+
