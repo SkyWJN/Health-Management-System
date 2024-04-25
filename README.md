@@ -1,4 +1,4 @@
-![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/50d296ce-1e91-4249-98a7-67b6d3526605)# Health-Management-System
+# Health-Management-System
 ## SpringBoot+SpringSecurity+微信小程序+vue2.0 ##
 ***
 ### 关键技术
@@ -31,6 +31,7 @@
 ![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/105cece1-62e0-4f26-ae25-b068dedf7852)
 ![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/f961af2c-1b3d-4399-a9da-04e0257b47b2)
 ![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/58556bac-c6d9-45cc-9971-e1313aa13bdb)
+![image](https://github.com/SkyWJN/Health-Management-System/assets/66019283/50d296ce-1e91-4249-98a7-67b6d3526605)
 
 
 *后台管理页面展示。*
